@@ -1,5 +1,3 @@
 package TheJourneyBegins
 
-fun centuryFromYear(year: Int): Int {
-    TODO()
-}
+fun centuryFromYear(year: Int) = (year + 99) / 100
