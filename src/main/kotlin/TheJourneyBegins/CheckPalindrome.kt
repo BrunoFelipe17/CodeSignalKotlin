@@ -1,3 +1,3 @@
 package TheJourneyBegins
 
-fun checkPalindrome(inputString: String): Nothing = TODO()
+fun checkPalindrome(inputString: String) = inputString == inputString.reversed()
