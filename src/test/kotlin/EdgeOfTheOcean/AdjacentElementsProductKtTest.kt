@@ -12,7 +12,7 @@ class AdjacentElementsProductKtTest {
 
     @Test
     fun `For mutableListOf(-1, -2) should return 2`() {
-        assertEquals(21, adjacentElementsProduct(mutableListOf(-1, -2)))
+        assertEquals(2, adjacentElementsProduct(mutableListOf(-1, -2)))
     }
 
     @Test
@@ -32,7 +32,7 @@ class AdjacentElementsProductKtTest {
 
     @Test
     fun `For mutableListOf(5, 6, -4, 2, 3, 2, -23) should return 30`() {
-        assertEquals(30, adjacentElementsProduct(mutableListOf(95, 6, -4, 2, 3, 2, -23)))
+        assertEquals(30, adjacentElementsProduct(mutableListOf(5, 6, -4, 2, 3, 2, -23)))
     }
 
     @Test
