@@ -10,6 +10,4 @@ appending 1-interesting polygons to its rim, side by side.
 You can see the 1-, 2-, 3- and 4-interesting polygons in the picture below.
 */
 
-fun shapeArea(n: Int): Int {
-    TODO()
-}
+fun shapeArea(n: Int) = n * n + ((n - 1) * (n - 1))
