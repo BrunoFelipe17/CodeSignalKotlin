@@ -14,5 +14,15 @@ sum of all rooms that are suitable for the CodeBots
  */
 
 fun matrixElementsSum(matrix: MutableList<MutableList<Int>>): Int {
-    TODO()
+    var sum = 0
+
+    for (i in 0 until matrix[0].size) {
+        var calc = 0
+        for (j in matrix.size - 1 downTo 0) {
+            calc = if (matrix[j][i] == 0) 0 else matrix[j][i] + calc
+        }
+        sum += calc
+    }
+
+    return sum
 }
