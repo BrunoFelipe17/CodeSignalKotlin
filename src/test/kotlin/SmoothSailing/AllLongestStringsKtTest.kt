@@ -27,4 +27,10 @@ class AllLongestStringsKtTest {
         val input = mutableListOf("a", "abc", "cbd", "zzzzzz", "a", "abcdef", "asasa", "aaaaaa")
         assertEquals(mutableListOf("zzzzzz", "abcdef", "aaaaaa"), allLongestStrings(input))
     }
+
+    @Test
+    fun `Should return 'varennyky'`() {
+        val input = mutableListOf("enyky", "benyky", "yely", "varennyky")
+        assertEquals(mutableListOf("varennyky"), allLongestStrings(input))
+    }
 }
