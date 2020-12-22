@@ -22,7 +22,7 @@ class CommomCharacterCountKtTest {
 
     @Test
     fun `Should return 0 for 'a' and 'b'`() {
-        assertEquals(0, commonCharacterCount("abca", "xyzbac"))
+        assertEquals(0, commonCharacterCount("a", "b"))
     }
 
     @Test
