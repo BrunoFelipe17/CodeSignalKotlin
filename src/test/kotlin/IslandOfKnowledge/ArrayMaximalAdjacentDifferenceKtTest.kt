@@ -37,9 +37,9 @@ class ArrayMaximalAdjacentDifferenceKtTest {
     }
 
     @Test
-    fun `Should return -2 for {-2, -2, -2, -2, -2}`() {
+    fun `Should return 0 for {-2, -2, -2, -2, -2}`() {
         assertEquals(
-            -2,
+            0,
             arrayMaximalAdjacentDifference(mutableListOf(-2, -2, -2, -2, -2))
         )
     }
