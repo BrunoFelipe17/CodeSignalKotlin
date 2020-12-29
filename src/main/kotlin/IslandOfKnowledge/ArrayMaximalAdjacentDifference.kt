@@ -2,8 +2,6 @@ package IslandOfKnowledge
 
 fun arrayMaximalAdjacentDifference(inputArray: MutableList<Int>): Int {
 
-    inputArray.zip(inputArray.drop(1), { a, b -> Math.abs(a - b) }).max()
-
     var result = 0
 
     for (i in 1 until inputArray.size) {
